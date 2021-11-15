@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Inicio Header y barra de navegacion */ 
+header{
+    padding: 5px 20%;
+    margin: 0;
+    background-color: #212121;
+    position: relative;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    width: 100%;
+}
+h1 .titulo{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+header .navegacion{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 10px;
+}
+nav a:hover{
+    color: #6099e9;
+    transition: all 500ms ease;
+}
+nav a:active{
+    color: #3FC0F3;
+}
+.logo{
+    padding: 0 0 0 30px;
+}
+.logo i{
+    font-size: 22px;
+    color: #fff;
+    padding: 0 10px;
+}
+/* fin Header y barra de navegacion */ 
+
+/* inicio primera seccion de la pagina */
+.seccion1{
+    background: url("/Desarrollo_Web/Source/IMG/Seccion1.jpg") no-repeat center center fixed;
+    background-color: #355E99;
+    background-size: cover;
+    background-size: 50%;
+    height: 750px;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+}
+.slogan{
+    color: #fff;
+    position: relative;
+    left: 20%;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 500px;
+}
+.slogan p{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+.frase{
+    color: #fff;
+    position: relative;
+    left: 20%;
+    top: 20%;
+    transform: translateY(-50%);
+    width: 500px;
+}
+.frase p{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+.botones1{
+    position: relative;
+    left: 19.5%;
+    top: 14%;
+    transform: translateY(-50%);
+    width: 600px;
+}
+.botones1 button{
+    background-color: transparent;
+    color: #fff;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border: 3px solid #fff;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    width: 230px;
+    height: 52px;
+    transition: all 500ms ease;
+}
+.botones1 button:hover{
+    background-color: #355E99;
+    color: #fff;
+    transition: all 500ms ease;
+}
+/* fin primera seccion de la pagina */
+
+/* inicio de la segunda seccion de la pagina */
+.seccion2{
+    background-color: #355E99;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.seccion2 .tarjeta{
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border: 8px solid #212121;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4% 2%;
+}
+.seccion2 .icono{
+    width: 105px;
+    height: 105px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4% 2%;
+}
+.tarjeta p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 10px;
+    text-align: center;
+}
+.icono i{
+    font-size: 80px;
+}
+/* fin de la segunda seccion de la pagina */
+
+/* inicio de la tercera seccion de la pagina */
+.seccion3{
+    background-color: white;
+}
+.titulo{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 30px 20% 0;
+}
+.titulo h2{
+    margin: 0;
+}
+.titulo p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0 5.5%;
+}
+.tarjeta2{
+    margin: 60px 20% 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.empleado img{
+    width: 200px;
+    height: 210px;
+    border-radius: 50%;
+    margin: 0 60px 30px;
+}
+.nombre{
+    font-size: 22px;
+    font-family: helvetica, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+.posicion{
+    font-size: 18px;
+    font-family: helvetica, sans-serif;
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+}
+.info{
+    font-size: 20px;
+    font-family: 'roboto', sans-serif;
+    margin: 60px 23% 5%;
+}
+/* fin de la pagina seccion de la pagina*/
+
+/* inicio del footer */
+footer{
+    background-color: #212121;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.copyright{
+    color: #fff;
+    width: 100%;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0 10px 20%;
+}
+.copyright p{
+    width: 100%;
+}
+.politica{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px 20% 10px 0;
+}
+.politica a{
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 10px;
+}
+.politica a:hover{
+    color: #6099e9;
+    transition: all 500ms ease;
+}
+/* fin del footer */
