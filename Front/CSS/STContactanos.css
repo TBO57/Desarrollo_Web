@@ -1,0 +1,41 @@
+body{
+    background-color: #212121;
+}
+
+h1{
+    margin: 60px 330px;;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+
+.big{
+    background-color: #355E99;
+    width: 850px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 330px;
+    border: 4px solid #355E99;
+    border-radius: 6px;
+}
+
+#izq{
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 33%;
+    margin: 20px;
+}
+
+input{
+    height: 30px;
+    border-radius: 4px;
+}
+
+#der{
+    padding-left: 50%;
+    padding-top: 0%;
+    padding-bottom: 1%;
+}
