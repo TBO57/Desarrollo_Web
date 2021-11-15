@@ -1,8 +1,60 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: #212121;
-
+    margin: 0;
+    padding: 0;
 }
-
+header{
+    padding: 5px 20%;
+    margin: 0;
+    background-color: #212121;
+    position: relative;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header p{ 
+    width: 100%;
+}
+p .titulo{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+header .navegacion{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 10px;
+}
+nav a:hover{
+    color: #6099e9;
+    transition: all 500ms ease;
+}
+nav a:active{
+    color: #3FC0F3;
+}
+.logo{
+    padding: 0 0 0 30px;
+}
+.logo i{
+    font-size: 22px;
+    color: #fff;
+    padding: 0 10px;
+}
 h1{
     margin-top: 100px;
     color: #fff;
@@ -64,5 +116,42 @@ button:hover{
     transition: all 500ms ease;
 }
 
+
+footer{
+    background-color: #212121;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0 0;
+    padding: 0 20px;
+}
+.copyright{
+    color: #fff;
+    width: 100%;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0 10px 20%;
+}
+.copyright p{
+    width: 100%;
+}
+.politica{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px 20% 10px 0;
+}
+.politica a{
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 10px;
+}
+.politica a:hover{
+    color: #6099e9;
+    transition: all 500ms ease;
+}
 
 
